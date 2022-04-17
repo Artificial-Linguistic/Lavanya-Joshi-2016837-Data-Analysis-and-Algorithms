@@ -59,7 +59,7 @@ void check_duplicates(int arr[],int n)
 {
     q_sort(arr,0,n-1);
 
-    for(int i=0;i<n;i++)
+    for(int i=0;i<n-1;i++)
     {
         if(arr[i]==arr[i+1])
         {
