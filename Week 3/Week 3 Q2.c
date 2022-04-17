@@ -59,7 +59,7 @@ int main()
 
     for(int i=0;i<t;i++)
     {
-        int n,key;
+        int n;
         printf("\nEnter Number of Elements: ");
         scanf("%d",&n);
 
