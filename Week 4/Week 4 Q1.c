@@ -62,6 +62,7 @@ int merge(int arr[],int left,int mid,int right,int *c)
         j++;
         k++;
     }
+    return inversion;
 }
 
 int merge_sort(int arr[],int left,int right,int *c)
